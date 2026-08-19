@@ -1,0 +1,51 @@
+export const seedTasks = [
+  {
+    id: "t-1001",
+    title: "Fix flaky login redirect on Safari",
+    assignee: "dana",
+    priority: "high",
+    done: false,
+  },
+  {
+    id: "t-1002",
+    title: "Add empty state to the reports page",
+    assignee: "ken",
+    priority: "low",
+    done: true,
+  },
+  {
+    id: "t-1003",
+    title: "Rotate the staging API keys",
+    assignee: "dana",
+    priority: "medium",
+    done: false,
+  },
+  {
+    id: "t-1004",
+    title: "Write migration notes for the billing table",
+    assignee: "priya",
+    priority: "medium",
+    done: false,
+  },
+  {
+    id: "t-1005",
+    title: "Trim the onboarding checklist to five steps",
+    assignee: "ken",
+    priority: "low",
+    done: true,
+  },
+  {
+    id: "t-1006",
+    title: "Investigate slow queries on the activity feed",
+    assignee: "priya",
+    priority: "high",
+    done: false,
+  },
+  {
+    id: "t-1007",
+    title: "Drop the unused webhook retry worker",
+    assignee: "dana",
+    priority: "low",
+    done: false,
+  },
+];
